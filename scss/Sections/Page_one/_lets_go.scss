@@ -1,0 +1,28 @@
+.lets_go {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 311px;
+
+  display: flex;
+  flex-direction: column;
+
+  &__btns {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      @extend %btn-typegraphy;
+      margin-bottom: 35px;
+      background: linear-gradient(
+        90deg,
+        rgba(246, 200, 102, 0.9) -6.2%,
+        rgba(254, 173, 53, 0.9) 100%
+      );
+    }
+  }
+  &_online_prediction {
+    @extend %title-16;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}

@@ -1,0 +1,83 @@
+%title-16 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+%typegraphy-300-25 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+%typegraphy-normal-25 {
+  font-family: Roboto;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+%typegraphy-normal-29-25 {
+  font-family: Roboto;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+%btn-typegraphy {
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+  color: white;
+  padding: 15px 0;
+  position: relative;
+  z-index: 5;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%obituary-typegraphy {
+  font-family: Bad Script;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+}
+
+%select_styleng {
+  background: linear-gradient(
+    90deg,
+    rgba(228, 228, 228, 0.9) -6.2%,
+    rgba(203, 203, 203, 0.9) 100%
+  );
+  padding: 15px 0;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 311px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #202024;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 23px;
+  position: relative;
+  z-index: 5;
+  cursor: pointer;
+}

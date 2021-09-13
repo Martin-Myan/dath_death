@@ -1,0 +1,62 @@
+.steptwo {
+  position: relative;
+  padding: 48px 0 37px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  height: 146px;
+
+  &__title {
+    z-index: 1;
+    opacity: 0.6;
+    margin: 0 auto;
+    max-width: 412px;
+    color: #ffffff;
+    position: relative;
+    @extend %obituary-typegraphy;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &__image {
+    right: 0px;
+    width: 100%;
+    bottom: 0px;
+    max-width: 146px;
+    position: absolute;
+  }
+
+  &__result {
+    position: absolute;
+    bottom: 16px;
+    min-height: 84px;
+    right: 30px;
+    max-width: 80%;
+    width: 100%;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 5px;
+    z-index: 5;
+
+    &_text {
+      font-family: Bad Script;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      width: 100%;
+      text-align: center;
+      color: #202024;
+    }
+
+    &__arrow {
+      position: absolute;
+      right: 18px;
+      bottom: -10px;
+    }
+  }
+}
+
+.display_none {
+  display: none;
+}

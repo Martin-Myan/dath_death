@@ -1,0 +1,172 @@
+.step_two_bock {
+  margin: 36px auto;
+  text-align: center;
+  padding: 0 0 34px 0;
+
+  &__title {
+    width: 288px;
+    color: #f6c866;
+    margin: 0 auto 40px;
+    text-transform: uppercase;
+    @extend %typegraphy-normal-25;
+    font-size: 16px;
+  }
+
+  &__forma {
+    margin-top: 40px;
+
+    &__btn {
+      width: 100%;
+      margin: 0 auto;
+      max-width: 311px;
+      border-radius: 50px;
+      margin-bottom: 20px;
+      @extend %btn-typegraphy;
+      background: linear-gradient(
+        90deg,
+        rgba(246, 200, 102, 0.9) -6.2%,
+        rgba(254, 173, 53, 0.9) 100%
+      );
+    }
+
+    &__button {
+      width: 100%;
+      margin: 0 auto;
+      max-width: 311px;
+      border-radius: 50px;
+      margin-bottom: 20px;
+      @extend %btn-typegraphy;
+      background: linear-gradient(
+        90deg,
+        rgba(246, 200, 102, 0.9) -6.2%,
+        rgba(254, 173, 53, 0.9) 100%
+      );
+    }
+
+    &__button_end {
+      width: 100%;
+      margin: 0 auto;
+      max-width: 311px;
+      border-radius: 50px;
+      margin-bottom: 20px;
+      @extend %btn-typegraphy;
+      background: linear-gradient(
+        90deg,
+        rgba(246, 200, 102, 0.9) -6.2%,
+        rgba(254, 173, 53, 0.9) 100%
+      );
+    }
+
+    &__yes {
+      width: 100%;
+      margin: 0 auto;
+      max-width: 311px;
+      border-radius: 50px;
+      margin-bottom: 20px;
+      @extend %btn-typegraphy;
+      background: linear-gradient(
+        90deg,
+        rgba(246, 200, 102, 0.9) -6.2%,
+        rgba(254, 173, 53, 0.9) 100%
+      );
+    }
+  }
+
+  &__loader {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #202024;
+    animation: slide 2.6s normal forwards ease-in-out;
+
+    &__text {
+      display: flex;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 14px;
+      user-select: none;
+      text-align: center;
+      margin: 27px auto 0;
+      align-items: center;
+      font-family: Roboto;
+      letter-spacing: 0.1em;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    img {
+      animation: rotate 3.5s;
+    }
+  }
+}
+
+.form__step {
+  display: none;
+
+  &_active {
+    display: block;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  35% {
+    transform: rotate(360deg);
+  }
+  85% {
+    transform: rotate(0deg);
+  }
+  99% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slide {
+  100% {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    display: none;
+  }
+}
+
+.set_data {
+  @extend %select_styleng;
+}
+
+.data_important {
+  @extend %select_styleng;
+  color: red;
+  font-weight: bold;
+}
+
+.d_none {
+  display: none;
+}
+
+.dip {
+  display: none;
+}
+
+.err {
+  color: grey;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 12px;
+
+  &__sl {
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+  }
+}

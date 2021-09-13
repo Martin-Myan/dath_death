@@ -1,0 +1,40 @@
+.manipulation_step_three {
+  background-image: url(../../assets/manipulayion_image.jpg);
+  background-image: url(../../assets/manipulation_background.png);
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 215px 0;
+
+  @media (max-width: $wide) {
+    max-width: 100%;
+    width: 100%;
+    padding: 165px 0;
+  }
+  @media (max-width: $desktop) {
+    padding: 128px 0;
+  }
+  @media (max-width: $tablet) {
+    padding: 74px 0;
+    font-size: 16px;
+    line-height: 25px;
+    background-size: cover;
+  }
+
+  &__info {
+    max-width: 380px;
+    width: 100%;
+    text-align: center;
+    @extend %typegraphy-normal-25;
+    color: white;
+
+    &__yellow {
+      color: #f6c866;
+    }
+  }
+}

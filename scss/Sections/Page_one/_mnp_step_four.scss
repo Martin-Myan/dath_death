@@ -1,0 +1,37 @@
+.mnp_step_four {
+  margin: 133px auto;
+
+  &__afraid_die {
+    text-align: center;
+    text-transform: uppercase;
+    @extend %typegraphy-normal-29-25;
+    color: #f6c866;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 47px;
+  }
+
+  &__btns {
+    width: 100%;
+    display: flex;
+    max-width: 311px;
+    margin: 0 auto;
+    flex-direction: column;
+
+    &__yes {
+      @extend %btn-typegraphy;
+      margin-bottom: 35px;
+      background: linear-gradient(
+        90deg,
+        rgba(246, 200, 102, 0.9) -6.2%,
+        rgba(254, 173, 53, 0.9) 100%
+      );
+    }
+
+    &_count {
+      @extend %title-16;
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+}

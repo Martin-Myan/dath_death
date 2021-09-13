@@ -1,0 +1,37 @@
+.monipulation_block {
+  margin: 0 auto;
+
+  &__forecast {
+    margin-bottom: 65px;
+    @extend %typegraphy-300-25;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  &_icon {
+    display: flex;
+    height: 345px;
+    max-width: 345px;
+    position: relative;
+    margin: 0 auto 23px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../assets/Vector.svg);
+
+    &__image {
+      width: 238px;
+      height: 238px;
+    }
+  }
+
+  &__question {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 500px;
+    //
+    color: #f6c866;
+    //
+    text-align: center;
+    margin-bottom: 40px;
+    @extend %typegraphy-normal-25;
+  }
+}

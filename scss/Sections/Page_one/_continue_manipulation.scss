@@ -1,0 +1,28 @@
+.continue_manipulation {
+  max-width: 443px;
+  width: 100%;
+  margin: 147px auto 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 3px;
+  height: 438px;
+
+  &__image {
+    position: absolute;
+    top: -15%;
+  }
+
+  &__info_text {
+    color: white;
+    text-align: center;
+    @extend %typegraphy-normal-25;
+
+    &_yellow {
+      color: #f6c866;
+    }
+  }
+}
