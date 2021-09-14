@@ -1,3 +1,6 @@
+export const ACTIVE_THREE_PAGE = 3;
+export const ACTIVE_FOUR_PAGE = 4;
+export const ACTIVE_FIVE_PAGE = 5;
 export const MINIMUM_AGE = 18;
 export const FIRST_OPTION_MAX_AGE = 35;
 export const FIRST_OPTION_TEXT =

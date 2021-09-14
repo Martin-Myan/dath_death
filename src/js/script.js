@@ -35,6 +35,9 @@ import {
   classNotificationsText,
   todayYear,
   formValues,
+  ACTIVE_THREE_PAGE,
+  ACTIVE_FOUR_PAGE,
+  ACTIVE_FIVE_PAGE,
 } from "./constant.js";
 
 const removeClassFromList = (list, className) => {
@@ -113,7 +116,7 @@ formBtn.forEach((el) =>
     removeClassFromList(formSteps, "form__step_active");
     formSteps[1].classList.add("form__step_active");
     classHeaderText.innerHTML = FIND_OUT_THE_FUTURE;
-    activeStep.innerHTML = 3;
+    activeStep.innerHTML = ACTIVE_THREE_PAGE;
   })
 );
 
@@ -149,7 +152,7 @@ formaButton.addEventListener("click", (e) => {
     removeClassFromList(formSteps, "form__step_active");
     formSteps[2].classList.add("form__step_active");
     classHeaderText.innerHTML = DEATH_IS_HARDER;
-    activeStep.innerHTML = 4;
+    activeStep.innerHTML = ACTIVE_FOUR_PAGE;
   }
 });
 
@@ -160,7 +163,7 @@ formEndButton.forEach((el) => {
     formSteps[3].classList.add("form__step_active");
     removeClassFromList(classNotifications, "display_none");
     classHeaderText.style.display = "none";
-    activeStep.innerHTML = 5;
+    activeStep.innerHTML = ACTIVE_FIVE_PAGE;
   });
 });
 
